@@ -1,12 +1,12 @@
-import { Outlet } from "react-router-dom"
 import { Sidebar } from "./sidebar/sidebar.jsx"
 
-export const Layout =() => {
+
+export const Layout =({children}) => {
     return(
         <div className="d-flex">
           <Sidebar />
           <div>
-            <Outlet />
+            {children}
           </div>
         </div>
  
