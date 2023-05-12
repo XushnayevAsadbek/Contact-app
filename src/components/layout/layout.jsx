@@ -1,5 +1,5 @@
 import { Sidebar } from "./sidebar/sidebar.jsx"
-
+import  PropTypes  from 'prop-types';
 
 export const Layout =({children}) => {
     return(
@@ -12,4 +12,7 @@ export const Layout =({children}) => {
  
     );
 
+    Layout.PropTypes={
+      children:PropTypes.any,
+    }
 };
