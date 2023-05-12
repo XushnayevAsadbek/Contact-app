@@ -1,18 +1,20 @@
 import { Sidebar } from "./sidebar/sidebar.jsx"
 import  PropTypes  from 'prop-types';
 
-export const Layout =({children}) => {
+export const Layout =({children , users}) => {
     return(
         <div className="d-flex">
-          <Sidebar />
+          <Sidebar users={users} />
           <div>
-            {children}
+            {children }
           </div>
         </div>
  
     );
 
-    Layout.PropTypes={
+   
+}; 
+Layout.PropTypes={
       children:PropTypes.any,
+      users:PropTypes.array
     }
-};
