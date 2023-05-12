@@ -10,8 +10,8 @@ function App() {
     <>
       <Layout users={users} >
         <Routes >
-          <Route path='contact/:id' element={<Contact />} />
-          <Route path='add' element={<ContactForm />} />
+          <Route path='contact/:id' element={<Contact users={users} />} />
+          <Route path='add' element={<ContactForm setUsers={setUsers} />} />
           <Route path='edit' element={<ContactForm />} />
 
         </Routes>

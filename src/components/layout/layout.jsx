@@ -1,5 +1,4 @@
 import { Sidebar } from "./sidebar/sidebar.jsx"
-import  PropTypes  from 'prop-types';
 
 export const Layout =({children , users}) => {
     return(
@@ -14,7 +13,3 @@ export const Layout =({children , users}) => {
 
    
 }; 
-Layout.PropTypes={
-      children:PropTypes.any,
-      users:PropTypes.array
-    }
