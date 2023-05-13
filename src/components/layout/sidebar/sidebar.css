@@ -1,0 +1,49 @@
+.sidebar{
+    background-color: #F7F7F7;
+}
+
+.sidebar-icon{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.search-input{
+    display: block;
+    width: 100%;
+    padding: 0.375px 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: none;
+}
+
+.sidebar-item{
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar-item--list:hover{
+    background-color: #3A62F4;
+    border-radius: 10px; 
+}
+
+.sidebar-item--link:hover{
+    color: white;
+}
+
+
+.sidebar-item--link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    padding-left: 10px;
+
+}
+
