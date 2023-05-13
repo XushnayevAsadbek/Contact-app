@@ -28,14 +28,15 @@
     list-style: none;
     text-decoration: none;
 }
+
 .sidebar-item--list:hover{
-    background-color: #3A62F4;
-    border-radius: 10px; 
-}
+     background-color: #3A62F4;
+    border-radius: 10px;  
+} 
 
 .sidebar-item--link:hover{
     color: white;
-}
+} 
 
 
 .sidebar-item--link{
